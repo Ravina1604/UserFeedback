@@ -1,0 +1,87 @@
+.login-form{
+    width: 30%;
+    margin: 30px auto;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar-custom{
+    background-color: dodgerblue;
+}
+
+a.navbar-brand{
+    color: white;
+}
+
+.employee-list{
+    list-style: none;
+    border: 1px solid;
+    margin: 10px auto;
+    width: 60%;
+    padding : 0;
+}
+
+.list-item{
+    height: 30%;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    position: relative
+}
+
+.show-button{
+    right: 0.5em;
+    position: absolute;
+    top: 20%;
+}
+
+.remove-button{
+    position: absolute;
+    right: 7em;
+    top: 20%;
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.feedback-header{
+    background: lightgray;
+    margin-top: 1rem;
+    padding: 10px;
+    color: green;
+}
+.update-nav{
+    margin : 10px auto;
+    width: 70%;
+}
+
+.nav{
+    margin : 10px auto;
+    width: 50%;
+}
+.custom-button{
+    margin: 10px 30%;
+}
+
+.assign-box{
+    width: 30%;
+    margin: 10px auto;
+    /* border: 1px solid grey; */
+    padding: 10px;
+}
+
+.link{
+    color: dodgerblue !important;
+}
+
+.feedback-box{
+    width: 50%;
+    margin: 10px auto;
+    /* border: 1px solid grey; */
+    padding: 10px;
+}
+
+.header-button{
+    margin: 0 1rem;
+}
