@@ -7,7 +7,7 @@ PayPay Test Feedback Appliation
 2) Back-end(Server Side) : Node.js,Express.js
 3) Database  : MongoDB
 
-===>Please follow below to run the application :
+===>Please follow below steps to run the application :
 
 1) Install MongoDB latest verison
 2) Create Database directory in root folder and start MongoDB Database
@@ -16,10 +16,18 @@ PayPay Test Feedback Appliation
 4) run "npm run build" command
 5) run "npm start" command
 
- 1) and it will run application on https://localhost:3000 in local.
- 2) (Please make sure database is running in background otherwise application will not run properly as it won't get any data to render.)
- 3) Currently as time restricts, i have verified admin staticly(admin id is "Ravina123")
- 4) All other valid id will be considered as userID(such as "John123","Kat123")(admin can add new employee after login)
+ and it will run application on https://localhost:3000 in local.
+ 
+ 
+  (Please make sure database is running in background otherwise application will not run properly as it won't get any data to render.)
+  
+  
+  Currently as time restricts, i have verified admin staticly(admin id is "Ravina123")
+  
+  
+  All other valid id will be considered as userID(such as "John123","Kat123")(admin can add new employee after login)
+  
+  
 
 ===>Assumption Made for this application :
 1) userName is case-sensitive which we use at the time of loggin in into the system.
