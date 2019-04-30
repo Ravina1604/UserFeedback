@@ -3,9 +3,14 @@ PayPay Test Feedback Appliation
 
 ===>Technology Stack used :
    
-1) Front-End  : React.js, Javascript, HTML, CSS, Bootstrap
-2) Back-end(Server Side) : Node.js,Express.js
-3) Database  : MongoDB
+ Front-End  : React.js, Javascript, HTML, CSS, Bootstrap
+ 
+ 
+ Back-end(Server Side) : Node.js,Express.js
+ 
+ 
+ Database  : MongoDB
+ 
 
 ===>Please follow below steps to run the application :
 
@@ -33,28 +38,60 @@ PayPay Test Feedback Appliation
 1) userName is case-sensitive which we use at the time of loggin in into the system.
 2) Admin can also be an employee so application will also show admin in all employees section
 3) Only one performance review for one employee and it is in form of text(We can chnage it afterwards if we want it in form of object).
+4) Performance of Employee is currently Text only(later we can rephrase it in object).
+
 
 ===>Below are the snippent schema for stored data in database :
    
 Each employee consist of :
-1) name (Name of employee)
-2) userID (userId of employee to identify each employee uniquely)
-3) feedback (All feedbacks(with employee name) given to employee for his/her performance review from all employees)
-4) pendingAssignee (All employee which requires feedback for their performance review from you)
+
+
+ name (Name of employee)
+ 
+ 
+ userID (userId of employee to identify each employee uniquely)
+ 
+ 
+ feedback (All feedbacks(with employee name) given to employee for his/her performance review from all employees)
+ 
+ 
+ pendingAssignee (All employee which requires feedback for their performance review from you)
+ 
+ 
 
 Each feedback consist of :
-1) feedback (Feedback text given by employee)
-2) assignee (Employee name who gave this particular feedback)
+
+
+ feedback (Feedback text given by employee)
+ 
+ 
+ assignee (Employee name who gave this particular feedback)
+ 
+ 
 
 ===>Folder structure of Project:
 
-1) server : contains server file(Node.js), Schema model for data, seed file to load application with initial data
-2) src    : contains all React componennt (Staring Component App.js)
-3) style  : contains css style file of application
-4) index.js : file created after build of react application
-5) main.js  : starting file of react application
-6) package.json : contain all module required for application
-7) webpack.config.js : configuration required for react application
+ server : contains server file(Node.js), Schema model for data, seed file to load application with initial data
+ 
+ 
+ src    : contains all React componennt (Staring Component App.js)
+ 
+ 
+ style  : contains css style file of application
+ 
+ 
+ index.js : file created after build of react application
+ 
+ 
+ main.js  : starting file of react application
+ 
+ 
+ package.json : contain all module required for application
+ 
+ 
+ webpack.config.js : configuration required for react application
+ 
+ 
 
 ====>Notes
 
